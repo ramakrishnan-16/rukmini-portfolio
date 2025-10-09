@@ -22,6 +22,8 @@ import Video17 from "../assets/videos/social-media-video4.mp4";
 import Video18 from "../assets/videos/social-media-video5.mp4";
 import Video19 from "../assets/videos/social-media-video6.mp4";
 import Video20 from "../assets/videos/social-media-video7.mp4";
+import Video21 from "../assets/videos/eduance.mp4";
+import Video22 from "../assets/videos/sleep-company.mp4";
 
 // Images
 import image1  from "../assets/images/posters/image1.jpg";
@@ -239,6 +241,20 @@ const Projects = () => {
       type: "",
       description: "",
       video: Video20,
+      category: "Social media script",
+    },
+    {
+      name: "Eduance - Opportunity card visa in Germany",
+      type: "",
+      description: "",
+      video: Video21,
+      category: "Social media script",
+    },
+    {
+      name: "The sleep company - Let the celebration begins",
+      type: "",
+      description: "",
+      video: Video22,
       category: "Social media script",
     },
   ];
