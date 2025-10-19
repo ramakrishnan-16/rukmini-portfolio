@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Style.css";
 
 const Blogs = () => {
-  const categories = ["Perspective", "Verses"];
+  const categories = ["Perspective",]; //"Verses"
   const [activeCategory, setActiveCategory] = useState(categories[0]);
   const [expandedBlog, setExpandedBlog] = useState(null);
 
@@ -32,56 +32,56 @@ const Blogs = () => {
         ഓർക്കുന്നത്:' മഞ്ഞിൽ വിരിഞ്ഞ പൂക്കളിൽ', വില്ലൻ കഥാപാത്രത്തിന് ഒരു മുഖം തേടിയപ്പോൾ ഒരു ലാളിത്യം തോന്നിക്കുന്ന വില്ലനെ ആണ് തേടിയതെന്നും, അങ്ങനെ ആണ് മോഹൻലാലിനെ തിരഞ്ഞെടുക്കാൻ കാരണമായതെന്നും പിന്നീട്  ഫാസിൽ പറഞ്ഞതാണ്. ശേഷം, ആ ലളിത ഭാവക്കാരൻ വിൻസെന്റ് ഗോമസ് ആയി, ഇന്നോളം ആ മുഖത്ത് മാറിമറിഞ്ഞത് എത്രെയോ ഭാവങ്ങൾ.നമ്മൾ ഏറെ ഇഷ്ട്ടപ്പെട്ട ലാൽ ഭാവങ്ങൾ, 
         ഈ സ്ത്രൈണ ഭാവത്തെ അത്രെയും മനോഹരമാക്കാൻ മോഹൻലാലിൻ മേൽ ഒരു നടൻ ഉണ്ടോ!!!. അർദ്ധനാരിശ്വരൻ - ത്രിലോക സുന്ദരനെ,  “ ആനന്ദ നടനം ആടിനാൻ അവൻ ആനന്ദ നടനം ആടിനാൻ “......`,
     },
-    {
-      id: 2,
-      category: "Perspective",
-      title: "അത്താഴ പഷ്ണിക്കാരുണ്ടോ?",
-      content: `How interesting are the beautiful rituals that performed in my land!
+    // {
+    //   id: 2,
+    //   category: "Perspective",
+    //   title: "അത്താഴ പഷ്ണിക്കാരുണ്ടോ?",
+    //   content: `How interesting are the beautiful rituals that performed in my land!
 
-        What if a temple make this to its people as a question.
+    //     What if a temple make this to its people as a question.
 
-        "അത്താഴ പഷ്ണിക്കാരുണ്ടോ?"
+    //     "അത്താഴ പഷ്ണിക്കാരുണ്ടോ?"
 
-        Not as a formality, but as a duty!!!! I loved it!!!
+    //     Not as a formality, but as a duty!!!! I loved it!!!
 
-        A custom that continues in Vaikom even today, regardlessly. This tradition still continues here ,  undeterred by time in or the circumstance which we all changed over years. Every evening, the question echoes at vaikom and every evening, someone somewhere is fed. This act of compassion more than a ritual; it is the way of life performed here without a hestitation. I came to hear that Vaikathappan was lovingly called as " അന്ന ദാനപ്രഭു " - the Lord who gives food - " The lord of food donation ".And in his land, no one should go to bed hungry......
+    //     A custom that continues in Vaikom even today, regardlessly. This tradition still continues here ,  undeterred by time in or the circumstance which we all changed over years. Every evening, the question echoes at vaikom and every evening, someone somewhere is fed. This act of compassion more than a ritual; it is the way of life performed here without a hestitation. I came to hear that Vaikathappan was lovingly called as " അന്ന ദാനപ്രഭു " - the Lord who gives food - " The lord of food donation ".And in his land, no one should go to bed hungry......
 
-        What if the lord says " എന്റെ നാട്ടിൽ ആരും വിശന്നു കിടക്കരുത് ", was behind this or its another belief.
+    //     What if the lord says " എന്റെ നാട്ടിൽ ആരും വിശന്നു കിടക്കരുത് ", was behind this or its another belief.
 
-        “നൂറാളെ ഊട്ടാനാവില്ലെങ്കിൽ ഒരാൾക്കെങ്കിലും അന്നം നല്കുക”
-        - മദർ തെരേസ.`,
-    },
-    {
-      id: 1,
-      category: "Verses",
-      title: "Branches",
-      content: `The sky leers at you from above,
-                but, you still have a long way to reach him.
-                The closer you get, the more he laughs and goes higher.
-                You will grow to his flank afresh.
-                He'll watch you by hiding behind the clouds. 
-                You keep on loving the naughty sky that you can never reach.`,
-    },
-    {
-      id: 2,
-      category: "Verses",
-      title: "Nightingale's Listener",
-      content: `The moon was masked that night. 
-                Somewhere from darkness,
-                Nightingale's daydreams
-                Sounded as a song every night 
-                like she penned 
-                her existence…
-                She dissented with the darkness.
-                On the contrary,
-                In the warmth of my bed 
-                I listened to her sorrows. 
-                than the night did,
-                I fall asleep amid her talk...
-                I had remorse the next morning. 
-                for being a partial listener 
-                to her words...`,
-    },
+    //     “നൂറാളെ ഊട്ടാനാവില്ലെങ്കിൽ ഒരാൾക്കെങ്കിലും അന്നം നല്കുക”
+    //     - മദർ തെരേസ.`,
+    // },
+    // {
+    //   id: 1,
+    //   category: "Verses",
+    //   title: "Branches",
+    //   content: `The sky leers at you from above,
+    //             but, you still have a long way to reach him.
+    //             The closer you get, the more he laughs and goes higher.
+    //             You will grow to his flank afresh.
+    //             He'll watch you by hiding behind the clouds. 
+    //             You keep on loving the naughty sky that you can never reach.`,
+    // },
+    // {
+    //   id: 2,
+    //   category: "Verses",
+    //   title: "Nightingale's Listener",
+    //   content: `The moon was masked that night. 
+    //             Somewhere from darkness,
+    //             Nightingale's daydreams
+    //             Sounded as a song every night 
+    //             like she penned 
+    //             her existence…
+    //             She dissented with the darkness.
+    //             On the contrary,
+    //             In the warmth of my bed 
+    //             I listened to her sorrows. 
+    //             than the night did,
+    //             I fall asleep amid her talk...
+    //             I had remorse the next morning. 
+    //             for being a partial listener 
+    //             to her words...`,
+    // },
   ];
 
   const descriptions = {
