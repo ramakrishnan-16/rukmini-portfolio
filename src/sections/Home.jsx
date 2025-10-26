@@ -12,7 +12,7 @@ const Home = () => {
         <div className="home-text" style={{ flex: 1 }}>
           <h1 className="home-name fw-bold ms-5 mb-3">Rukmini Pillai</h1>
           <p className="home-role lead ms-5">
-            Assistant Art Director {/* Production Designer / Assistant Creative Director / Copy Writer */}
+            Assistant Art Director {/* - Production Designer / Assistant Creative Director / Copy Writer */}
           </p>
           <a href="#about" className="btn btn-danger home-btn ms-5 px-4 py-2 fw-medium">About Me</a>
         </div>
