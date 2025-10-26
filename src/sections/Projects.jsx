@@ -50,7 +50,7 @@ import image21 from "../assets/images/posters/image21.jpg";
 import image22 from "../assets/images/posters/image22.jpg";
 
 const Projects = () => {
-  const categories = ["Assistant to Art Director","Assistant to Creative director","Copywriter","Social media script"];
+  const categories = ["Assistant to Art Director"]; // "Assistant to Creative director","Copywriter","Social media script"
   const [activeCategory, setActiveCategory] = useState(categories[0]);
 
   useEffect(() => {
@@ -159,104 +159,105 @@ const Projects = () => {
       category: "Assistant to Art Director",
     },
 
-    // Assistant to Creative director
     {
       name: "Malayoram Coconut oil",
       type: "TVC",
       description:
-        "Worked as Assistant to Creative Director for the Malayoram Coconut Oil campaign. Assisted in recce, shoot planning, and shot divisions, ensuring the execution of the creative vision. Coordinated with the production team to organize locations, props, and setups, while supporting the director in translating concepts into visually appealing content.",
+        "Worked as Assistant to Art Director for the Malayoram Coconut Oil campaign. Assisted in recce, shoot planning, and shot divisions, ensuring the execution of the creative vision. Coordinated with the production team to organize locations, props, and setups, while supporting the director in translating concepts into visually appealing content.",
       video: Video13,
-      category: "Assistant to Creative director",
+      category: "Assistant to Art Director",
     },
+
+    // Assistant to Creative director
 
     // Copywriter - Images
-    { image: image1, category: "Copywriter" },
-    { image: image2, category: "Copywriter" },
-    { image: image3, category: "Copywriter" },
-    { image: image4, category: "Copywriter" },
-    { image: image5, category: "Copywriter" },
-    { image: image6, category: "Copywriter" },
-    { image: image7, category: "Copywriter" },
-    { image: image8, category: "Copywriter" },
-    { image: image9, category: "Copywriter" },
-    { image: image10, category: "Copywriter" },
-    { image: image11, category: "Copywriter" },
-    { image: image12, category: "Copywriter" },
-    { image: image13, category: "Copywriter" },
-    { image: image14, category: "Copywriter" },
-    { image: image15, category: "Copywriter" },
-    { image: image16, category: "Copywriter" },
-    { image: image17, category: "Copywriter" },
-    { image: image18, category: "Copywriter" },
-    { image: image19, category: "Copywriter" },
-    { image: image20, category: "Copywriter" },
-    { image: image21, category: "Copywriter" },
-    { image: image22, category: "Copywriter" },
+    // { image: image1, category: "Copywriter" },
+    // { image: image2, category: "Copywriter" },
+    // { image: image3, category: "Copywriter" },
+    // { image: image4, category: "Copywriter" },
+    // { image: image5, category: "Copywriter" },
+    // { image: image6, category: "Copywriter" },
+    // { image: image7, category: "Copywriter" },
+    // { image: image8, category: "Copywriter" },
+    // { image: image9, category: "Copywriter" },
+    // { image: image10, category: "Copywriter" },
+    // { image: image11, category: "Copywriter" },
+    // { image: image12, category: "Copywriter" },
+    // { image: image13, category: "Copywriter" },
+    // { image: image14, category: "Copywriter" },
+    // { image: image15, category: "Copywriter" },
+    // { image: image16, category: "Copywriter" },
+    // { image: image17, category: "Copywriter" },
+    // { image: image18, category: "Copywriter" },
+    // { image: image19, category: "Copywriter" },
+    // { image: image20, category: "Copywriter" },
+    // { image: image21, category: "Copywriter" },
+    // { image: image22, category: "Copywriter" },
 
     // Social media script
-    {
-      name: "Fly with spouse. Script on Newzealand spouse visa opportunity.",
-      type: "",
-      description: "",
-      video: Video14,
-      category: "Social media script",
-    },
-    {
-      name: "Study in Newzealand, How much does it cost?",
-      type: "",
-      description: "",
-      video: Video15,
-      category: "Social media script",
-    },
-    {
-      name: "Thrissur Hilite mall hosting the biggest bookfair.",
-      type: "",
-      description: "",
-      video: Video16,
-      category: "Social media script",
-    },
-    {
-      name: "Dream of world class education?",
-      type: "",
-      description: "",
-      video: Video17,
-      category: "Social media script",
-    },
-    {
-      name: "Why students choose Newzealand for overseas education.",
-      type: "",
-      description: "",
-      video: Video18,
-      category: "Social media script",
-    },
-    {
-      name: "Newzealand spouse work visa opportunity.",
-      type: "",
-      description: "",
-      video: Video19,
-      category: "Social media script",
-    },
-    {
-      name: "Why study in Newzealand?",
-      type: "",
-      description: "",
-      video: Video20,
-      category: "Social media script",
-    },
-    {
-      name: "Eduance - Opportunity card visa in Germany",
-      type: "",
-      description: "",
-      video: Video21,
-      category: "Social media script",
-    },
-    {
-      name: "The sleep company - Let the celebration begins",
-      type: "",
-      description: "",
-      video: Video22,
-      category: "Social media script",
-    },
+    // {
+    //   name: "Fly with spouse. Script on Newzealand spouse visa opportunity.",
+    //   type: "",
+    //   description: "",
+    //   video: Video14,
+    //   category: "Social media script",
+    // },
+    // {
+    //   name: "Study in Newzealand, How much does it cost?",
+    //   type: "",
+    //   description: "",
+    //   video: Video15,
+    //   category: "Social media script",
+    // },
+    // {
+    //   name: "Thrissur Hilite mall hosting the biggest bookfair.",
+    //   type: "",
+    //   description: "",
+    //   video: Video16,
+    //   category: "Social media script",
+    // },
+    // {
+    //   name: "Dream of world class education?",
+    //   type: "",
+    //   description: "",
+    //   video: Video17,
+    //   category: "Social media script",
+    // },
+    // {
+    //   name: "Why students choose Newzealand for overseas education.",
+    //   type: "",
+    //   description: "",
+    //   video: Video18,
+    //   category: "Social media script",
+    // },
+    // {
+    //   name: "Newzealand spouse work visa opportunity.",
+    //   type: "",
+    //   description: "",
+    //   video: Video19,
+    //   category: "Social media script",
+    // },
+    // {
+    //   name: "Why study in Newzealand?",
+    //   type: "",
+    //   description: "",
+    //   video: Video20,
+    //   category: "Social media script",
+    // },
+    // {
+    //   name: "Eduance - Opportunity card visa in Germany",
+    //   type: "",
+    //   description: "",
+    //   video: Video21,
+    //   category: "Social media script",
+    // },
+    // {
+    //   name: "The sleep company - Let the celebration begins",
+    //   type: "",
+    //   description: "",
+    //   video: Video22,
+    //   category: "Social media script",
+    // },
   ];
 
   return (
