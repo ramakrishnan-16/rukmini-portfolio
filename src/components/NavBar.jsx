@@ -43,7 +43,7 @@ const Navbar = () => {
     };
   }, []);
 
-  const navItems = ["Home", "About", "Projects", "Blogs", "Contact"];
+  const navItems = ["Home", "About", "Projects", "Contact"]; // "Blogs"
 
   const handleClick = (id) => {
     const section = document.getElementById(id);
